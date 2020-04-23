@@ -1,0 +1,71 @@
+.container-fluid{
+    background-color: antiquewhite;
+}
+.image{
+    width: 80%;
+    height: 80%;
+    object-position: 100% 0;
+}
+h1{
+    padding: 2em 2em 0em;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+}
+p{
+    padding: 3em 2em 3em;
+    line-height: 150%;
+    font-family: 'Average', serif;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {  
+    .image{
+        object-fit: cover;
+        max-height: 350px;
+        width: 85%;
+        height: 100%;
+    }
+    h1{
+        padding: 2em 2em 0em;
+        font-size: 2.3em;
+    }
+    p{
+        padding: 3em 4em 3em;
+        line-height: 150%;
+    }    
+}
+
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {  
+    .image{
+        object-fit: cover;
+        max-height: 900px;
+        object-position: 100% 40%;
+        
+    }
+    h1{
+        font-size: 5em;
+    }
+    p{
+        font-size: 3em;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+    .image{
+        object-fit: cover;
+        max-height: 900px;
+        object-position: 100% 40%;
+        
+    }
+    h1{
+        font-size: 5em;
+    }
+    p{
+        font-size: 2em;
+        padding: 3em 5em 3em;
+    }
+
+}
