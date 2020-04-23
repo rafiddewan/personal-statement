@@ -1,6 +1,16 @@
 .container-fluid{
     background-color: antiquewhite;
 }
+.link{
+    color:rgba(88, 63, 9, 0.993);
+}
+.link:hover{
+    color:rgb(126, 98, 39);
+}
+::selection {
+    background: rgba(206, 152, 36, 0.507); /* WebKit/Blink Browsers */
+  }
+  
 .image{
     width: 80%;
     height: 80%;
