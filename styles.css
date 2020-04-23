@@ -69,3 +69,21 @@ p{
     }
 
 }
+
+/* 27 Inch monitors */
+@media (min-width: 1440px) {  
+    .image{
+        object-fit: cover;
+        max-height: 1500px;
+        object-position: 100% 40%;
+        
+    }
+    h1{
+        font-size: 5em;
+    }
+    p{
+        font-size: 2em;
+        padding: 3em 5em 3em;
+    }
+
+}
