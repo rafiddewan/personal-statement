@@ -52,7 +52,7 @@ p{
         object-fit: cover;
         max-height: 900px;
         object-position: 100% 40%;
-        
+        width: 50%;
     }
     h1{
         font-size: 5em;
@@ -86,7 +86,7 @@ p{
         object-fit: cover;
         max-height: 1500px;
         object-position: 100% 40%;
-        
+        width: 50%;
     }
     h1{
         font-size: 5em;
