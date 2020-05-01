@@ -52,13 +52,14 @@ p{
         object-fit: cover;
         max-height: 900px;
         object-position: 100% 40%;
-        width: 50%;
+        width: 80%;
     }
     h1{
         font-size: 5em;
     }
     p{
         font-size: 3em;
+        padding: 1.5em;
     }
 }
 
